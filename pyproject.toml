@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "project-folder"
+version = "0.1.0"
+description = "Программа для работы с вакансиями с платформы hh.ru"
+authors = ["Roman <sqrap@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
